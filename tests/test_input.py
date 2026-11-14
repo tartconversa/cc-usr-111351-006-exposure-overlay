@@ -1,5 +1,4 @@
 """资料结构的读取回归检查。"""
-import copy
 import json
 from pathlib import Path
 import tempfile

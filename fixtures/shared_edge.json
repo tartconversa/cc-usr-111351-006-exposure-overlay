@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "population": [
+    {
+      "id": "cell",
+      "persons": 100,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.0,
+              0.0
+            ],
+            [
+              10.0,
+              10.0
+            ],
+            [
+              0.0,
+              10.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              10.0,
+              0.0
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "facilities": [
+    {
+      "id": "left",
+      "level": 1,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.0,
+              0.0
+            ],
+            [
+              5.0,
+              10.0
+            ],
+            [
+              0.0,
+              10.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              5.0,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "right",
+      "level": 1,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.0,
+              0.0
+            ],
+            [
+              10.0,
+              10.0
+            ],
+            [
+              5.0,
+              10.0
+            ],
+            [
+              5.0,
+              0.0
+            ],
+            [
+              10.0,
+              0.0
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "crs": {
+    "kind": "equal_area_planar",
+    "unit": "m"
+  },
+  "version": "edge-v1"
+}
